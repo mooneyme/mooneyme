@@ -18,7 +18,7 @@ html, body{
 *:focus { outline: none; }
 
 .loader{
-	background: rgba(241,241,241,0.75) url(images/ajax-loader.gif) no-repeat center center;
+	background: rgba(241,241,241,0.75);
 	position: absolute;
 	z-index: 7777;
 }
@@ -36,12 +36,9 @@ html, body{
 }
 
 .section-header {
-	background: #eee url(images/triangle-closed.png) no-repeat 5px center;
+	background: #eee;
 	cursor: pointer;
 	padding: 5px;
 	color: #6b8699;
 	text-indent: 20px;
-}
-.section-header.open {
-	background-image: url(images/triangle-open.png);
 }
